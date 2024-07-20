@@ -3,7 +3,7 @@ import Cropper from "react-cropper";
 import "cropperjs/dist/cropper.css";
 import Modal from "./Modal";
 import useModal from "./useModal";
-
+//
 const defaultSrc =
   "https://raw.githubusercontent.com/roadmanfong/react-cropper/master/example/img/child.jpg";
 
