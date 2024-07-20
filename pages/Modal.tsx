@@ -2,7 +2,7 @@ import { forwardRef, MouseEventHandler } from "react"
 interface Props{
     title: string;
     children: React.ReactNode;
-    onClose: () => MouseEventHandler<HTMLButtonElement>;
+    onClose: () => void;
 }
 export type Ref = HTMLDialogElement;
 export default forwardRef<Ref, Props>(function Modal({title,children, onClose} , ref){ 
